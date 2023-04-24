@@ -1,0 +1,27 @@
+.footer{
+    margin-top: 0;
+}
+
+.contact-content{
+    /* height: 395px; */
+
+    height: 100vh;
+    /* background-color: rgb(184, 184, 227); */
+    display: block;
+    margin-top: 32px;
+    position: relative;
+    padding: 9px;
+    overflow: hidden;
+}
+
+.contact-content::after{
+    content: "";
+    background-image: url('../css/image.jpg');
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    border-radius: 50px;
+    z-index: -1;
+}
